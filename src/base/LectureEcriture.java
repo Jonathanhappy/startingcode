@@ -46,5 +46,17 @@ public class LectureEcriture {
         System.out.print("Entree votre nom : ");
         String line = keyb.nextLine();
         System.out.println("La valeur est : "+valeur+" "+line);
+
+        /**
+         * Exemple
+         */
+        String nomUtil;
+        System.out.print("Entrez votre numero de table : ");
+        int numero = keyb.nextInt();
+        keyb.nextLine();
+        System.out.print("Entrez votre nom : ");
+        nomUtil = keyb.nextLine();
+        System.out.println("Bonjour "+nomUtil+" soyez la bienvenue sur votre table "+numero);
+
     }
 }
