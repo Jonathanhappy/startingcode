@@ -9,6 +9,19 @@ public class LesVariables
          * il faut préciser le type de la variable
          * suivi de son identificateur,de son nom,
          * et ne pas oublier le fameux petit point-virgule qui clôt l'instruction de déclaration.
+         * Variables :
+         *          * 1 - Primitive
+         *          *      a - boolean : true, false
+         *          *      b - char    : 'A', '9', '&' etc..
+         *          *      c - int     : 10, -20, 15 etc
+         *          *      d - float    : 17.45, 0.25 etc
+         *          *      e - double  : 1000000000000000000099999.99999999999222232323
+         *          *      f - byte(nombre entier de petite taille), short(nombre entier court), long (entier de grande taille)
+         *          *
+         *          * 2 - Reference / Objets
+         *          *      - String,
+         *          *      - Arrays,
+         *          *      - Classe,
          */
         /*Les deux types élémentaires à disposition pour manipuler des données numériques*/
         int a;     /*Type entier  32 Bits  Autre :  long-> 64 Bits  byte-> 16 Bits*/
