@@ -6,9 +6,19 @@ public class OperatoreurArithmetic {
          * La somme       : + ;
          * La difference  : - ;
          * Le produit     : * ;
-         * Le quotien     : / ;
-         * Le Modulo      : % ;
+         * Le quotien     : / : si les deux valeurs qui interviennent dans la division
+         *                      sont toutes les deux de type, int,
+         *                      il s'agit de la division entière.;
+         *                      Si en revanche, au moins une des deux valeurs qui interviennent
+         *                      dans la division est de type, double,
+         *                      il s'agit de la division dont on a l'habitude,
+         *
+         * Le Modulo      : %  :  Dans le cas des int, et dans le cas des, int, seulement,
+         *                        on dispose également d'un opérateur qui s'appelle, modulo,
+         *                        qui se note avec le caractère, pour cent, %,
+         *                        et qui renvoie le reste de la division entière.;
          */
+
         //*Soit deux nombre a et b
         int a  = 10;
         int b = 7;
@@ -56,5 +66,22 @@ public class OperatoreurArithmetic {
         System.out.println("a est egale à b : "+estEgalb);
         System.out.println("a est supérieur à b : "+estSuperieur);
         System.out.println("a est inférieur à b : "+estInferieur);
+
+        System.out.println("Operation Simplifié");
+        a =5;
+        System.out.println("a = a + 1 ==> a+=1 : "+(a+=1));
+        System.out.println("a = a - 1 ==> a-=1 : "+(a-=1));
+        System.out.println("a = a * 10 ==> a*=10 : "+(a*=10));
+        System.out.println("a = a / 10 ==> a/=10 : "+(a/=10));
+
+        /**
+         * Operateurs en java
+         *
+         * Operateurs De Conjonction et disjonction
+         *
+         *  || : -> OU
+         *  && : -> ET
+         *
+         */
     }
 }
